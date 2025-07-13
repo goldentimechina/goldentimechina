@@ -82,7 +82,8 @@ en: &DEFAULT_EN
     section: about
 
   clients:
-    title: "Click the icon to DOWNLOAD"
+    title: "Download"
+    text: "Click The following Icon to start downloading"
     section: clients
     max-height: 100px
     horizontal-scrolling: "no" #"yes/no"
