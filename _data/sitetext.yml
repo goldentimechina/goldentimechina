@@ -67,7 +67,7 @@ en: &DEFAULT_EN
       - title: "ENJOY"
         year: "Step 4"
         desc: "Start watching!"
-        image: assets/img/timeline/WatchUsingRemote.jpg
+        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
