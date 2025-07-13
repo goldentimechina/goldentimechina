@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : DreamTV
 email      : goldentimechina@hotmail.com #this is also the email contact forms will go to
-description: "DreamTV Born in 2014, Lasting Till Eternity‌"
+description: "DreamTV Born in 2014, Lasting Till Eternity!"
 author     : DreamTV
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
