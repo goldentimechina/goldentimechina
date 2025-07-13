@@ -38,3 +38,4 @@ formspree_form_path: "f/xzzvprpr"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
