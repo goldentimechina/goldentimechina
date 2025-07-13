@@ -13,14 +13,12 @@ en: &DEFAULT_EN
   nav:
     - title: "Why Us"
       section: services
-    # - title: "Portfolio"
-    #   section: portfolio
     - title: "About"
       section: about
     - title: "Quick Start"
       section: timeline
     - title: "Download"
-      section: team
+      section: clients
     - title: "Contact"
       section: contact
 #    - title: "Theme Source"

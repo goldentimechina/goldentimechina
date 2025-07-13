@@ -25,10 +25,10 @@ en: &DEFAULT_EN
         desc: "Plug in Power and Ethernet cable and start watching world live TVs and thousands of video on demand (VOD)."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Available 365 days"
-        desc: "Contact sales and get response in seconds, available 8AM-10:30PM 365 days"
+        desc: "Contact sales and get response in seconds, available 8AM-10:30PM 365 days."
         icon: fas fa-laptop
-      - title: "[APK Download](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Download ans install our apk into your existing device or smart TV."
+      - title: "Multi Platform Supported"
+        desc: "We offer Windows, Mac, Android and iOS applications."
         icon: fab fa-markdown
 
   # portfolio:
@@ -45,24 +45,29 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Unboxing"
+        year: "Step 0"
+        desc: "Unbox and you will see TV Box, Power Cord, HDMI Cable, Ethernet Cable, Remote and Batteries."
+        image: assets/img/timeline/DreamTV-Unbox.jpg
+        alt:
+      - title: "Connect TV"
         year: "Step 1"
-        desc: "Unbox and you will see TV Box, Power Cord, Ethernet Cable, Remote and Batteries."
-        image: assets/img/timeline/1.jpg
+        desc: "Connect TV Box to your TV HDMI port using HDMI Cable."
+        image: assets/img/timeline/DreamTV-connection.jpg
         alt:
       - title: "Power Power"
         year: "Step 2"
         desc: "Connect TV box power with adapter to any 220V power supply."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/DreamTV-connection.jpg
         alt:
       - title: "Internet"
         year: "Step 3"
         desc: "Connect TV Box to your exsiting router via ethernet cable."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
+        image: assets/img/timeline/DreamTV-connection.jpg
+        alt: 
       - title: "ENJOY"
         year: "Step 4"
-        desc: "Power on the TV box and start watching!"
-        image: assets/img/timeline/4.jpg
+        desc: "Start watching!"
+        image: assets/img/timeline/WatchUsingRemote.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -76,21 +81,21 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 400px
+    max-height: 200px
     horizontal-scrolling: "no" #"yes/no"
     list:
-      - title: "Download"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      # - title: "designmodo"
-      #   url: https://github.com/raviriley/agency-jekyll-theme
-      #   logo: assets/img/clients/designmodo.jpg
-      # - title: "themeforest"
-      #   url: https://github.com/raviriley/agency-jekyll-theme
-      #   logo: assets/img/clients/themeforest.jpg
-      # - title: "Creative Market"
-      #   url: https://github.com/raviriley/agency-jekyll-theme
-      #   logo: assets/img/clients/creative-market.jpg
+      - title: "Windows"
+        url: https://ghproxy.com/https://github.com/gotvapp/gotvapp.github.io/releases/download/v2.0/GoTV.msi
+        logo: assets/img/clients/windowslogo.png
+      - title: "Mac OS"
+        url: https://ghproxy.com/https://github.com/gotvapp/gotvapp.github.io/releases/download/v2.0/GoTV.dmg
+        logo: assets/img/clients/macoslogo.png
+      - title: "Android"
+        url: https://ghproxy.com/https://github.com/gotvapp/gotvapp.github.io/releases/download/v2.0/GoTV_V3.apk
+        logo: assets/img/clients/androidlogo.png
+      - title: "iOS"
+        url: https://apps.apple.com/us/app/id1336045961
+        logo: assets/img/clients/ioslogo.png
 
   # eam:
   #  title: "OUR AMAZING TEAM"
