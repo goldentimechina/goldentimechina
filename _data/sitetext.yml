@@ -11,127 +11,127 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Welcome to our DreavTV!
+    text: Start Watching World TV
+    button: Contact Sales
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Our Advantages"
+    text: "Responde In Seconds"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Plug-and-Play"
+        desc: "Plug in Power and Ethernet cable and start watching world live TVs and thousands of video on demand (VOD)."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Available 365 days"
+        desc: "Contact sales and get response in seconds, available 8AM-10:30PM 365 days"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "[APK Download](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Download ans install our apk into your existing device or smart TV."
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+  # portfolio:
+  #   title: "Portfolio"
+  #   text: "Lorem ipsum dolor sit amet consectetur."
+  #   section: portfolio
+  #   closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Quick Install"
+    text: "Install and Watch in seconds"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Unboxing"
+        year: "Step 1"
+        desc: "Unbox and you will see TV Box, Power Cord, Ethernet Cable, Remote and Batteries."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Power Power"
+        year: "Step 2"
+        desc: "Connect TV box power with adapter to any 220V power supply."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Internet"
+        year: "Step 3"
+        desc: "Connect TV Box to your exsiting router via ethernet cable."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "ENJOY"
+        year: "Step 4"
+        desc: "Power on the TV box and start watching!"
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Watch World TV"
 
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "Welcome to DreamTV — your premier destination for global entertainment.</br> As a leading provider of live television services, DreamTV proudly offers seamless access to the live broadcasts of the renowned Global Television Network. Whether you want to stay updated with the latest news, enjoy captivating dramas, or immerse yourself in diverse cultural programming, DreamTV brings the world’s best content right to your screen.</br> In addition to our extensive live TV offerings, we provide an expansive library of on-demand videos (VOD) featuring thousands of titles across genres and languages. From blockbuster movies and popular series to documentaries and exclusive specials, our VOD collection ensures there’s always something for everyone to enjoy.</br> Our dedicated customer service team is available 365 days a year, from 8:00 AM to 10:30 PM, to assist you with any inquiries or support needs, ensuring you have a smooth and enjoyable viewing experience.</br> At DreamTV, we are committed to delivering high-quality entertainment that connects you to the world anytime, anywhere."
     section: about
 
   clients:
     section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    max-height: 400px
+    horizontal-scrolling: "no" #"yes/no"
     list:
-      - title: "envato"
+      - title: "Download"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      # - title: "designmodo"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+  # eam:
+  #  title: "OUR AMAZING TEAM"
+  #  text: "Lorem ipsum dolor sit amet consectetur."
+  #  subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  #  section: team
+  #  people:
+  #    - name: "Kay Garland"
+  #      role: "Lead Designer"
+  #      image: assets/img/team/500x500.jpg
+  #      social:
+  #        - url: https://twitter.com
+  #          icon: fab fa-twitter
+  #        - url: https://facebook.com
+  #          icon: fab fa-facebook-f
+  #        - url: https://linkedin.com
+  #          icon: fab fa-linkedin-in
+  #    - name: "Larry Parker"
+  #      role: "Lead Marketer"
+  #      image: assets/img/team/2.jpg
+  #      social:
+  #        - url: https://twitter.com
+  #          icon: fab fa-twitter
+  #        - url: https://facebook.com
+  #          icon: fab fa-facebook-f
+  #        - url: https://linkedin.com
+  #          icon: fab fa-linkedin-in
+  #    - name: "Diana Perterson"
+  #      role: "Lead Developer"
+  #      image: assets/img/team/500x500.jpg
+  #      social:
+  #        - url: https://twitter.com
+  #          icon: fab fa-twitter
+  #        - url: https://facebook.com
+  #          icon: fab fa-facebook-f
+  #        - url: https://linkedin.com
+  #          icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Leave Your Message and We Will Get Back ASAP."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -153,8 +153,8 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
 en-US:
