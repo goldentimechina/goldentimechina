@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   header:
     title: Welcome to DreamTV!
     text: Start Watching World TV
-    button: Contact Sales
-    buttonlink: "#services"
+    button: Contact Us
+    buttonlink: "#contact"
 
   services:
     title: "Our Advantages"
@@ -89,13 +89,13 @@ en: &DEFAULT_EN
     horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "Windows"
-        url: https://ghproxy.com/https://github.com/gotvapp/gotvapp.github.io/releases/download/v2.0/GoTV.msi
+        url: https://download.dreamtv.club/GoTV_V4.msi
         logo: assets/img/clients/windowslogo.png
       - title: "Mac OS"
-        url: https://ghproxy.com/https://github.com/gotvapp/gotvapp.github.io/releases/download/v2.0/GoTV.dmg
+        url: https://download.dreamtv.club/GoTV_V4.dmg
         logo: assets/img/clients/macoslogo.png
       - title: "Android"
-        url: https://ghproxy.com/https://github.com/gotvapp/gotvapp.github.io/releases/download/v2.0/GoTV_V3.apk
+        url: https://download.dreamtv.club/GoTV_V408.apk
         logo: assets/img/clients/androidlogo.png
       - title: "iOS"
         url: https://apps.apple.com/us/app/id1336045961
