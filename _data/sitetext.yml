@@ -66,7 +66,7 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Watch World TV"
+    end: "Watch <br> World <br> TV"
 
   about:
     title: "About Us"
