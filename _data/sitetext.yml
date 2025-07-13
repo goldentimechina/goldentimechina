@@ -77,6 +77,8 @@ en: &DEFAULT_EN
     title: "About Us"
     text: "our story"
     body: "Welcome to DreamTV — your premier destination for global entertainment.<br><br> As a leading provider of live television services, DreamTV proudly offers seamless access to the live broadcasts of the renowned Global Television Network. Whether you want to stay updated with the latest news, enjoy captivating dramas, or immerse yourself in diverse cultural programming, DreamTV brings the world's best content right to your screen.<br><br> In addition to our extensive live TV offerings, we provide an expansive library of on-demand videos (VOD) featuring thousands of titles across genres and languages. From blockbuster movies and popular series to documentaries and exclusive specials, our VOD collection ensures there's always something for everyone to enjoy.<br><br> Our dedicated customer service team is available 365 days a year, from 8:00 AM to 10:30 PM, to assist you with any inquiries or support needs, ensuring you have a smooth and enjoyable viewing experience.<br><br> At DreamTV, we are committed to delivering high-quality entertainment that connects you to the world anytime, anywhere."
+    button: Contact Us
+    buttonlink: "#services"
     section: about
 
   clients:
