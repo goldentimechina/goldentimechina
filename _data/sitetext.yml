@@ -70,7 +70,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
-        align: right
+#        align: right
     end: "Watch <br> World <br> TV"
 
   about:
@@ -97,43 +97,6 @@ en: &DEFAULT_EN
       - title: "iOS"
         url: https://apps.apple.com/us/app/id1336045961
         logo: assets/img/clients/ioslogo.png
-
-  # eam:
-  #  title: "OUR AMAZING TEAM"
-  #  text: "Lorem ipsum dolor sit amet consectetur."
-  #  subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-  #  section: team
-  #  people:
-  #    - name: "Kay Garland"
-  #      role: "Lead Designer"
-  #      image: assets/img/team/500x500.jpg
-  #      social:
-  #        - url: https://twitter.com
-  #          icon: fab fa-twitter
-  #        - url: https://facebook.com
-  #          icon: fab fa-facebook-f
-  #        - url: https://linkedin.com
-  #          icon: fab fa-linkedin-in
-  #    - name: "Larry Parker"
-  #      role: "Lead Marketer"
-  #      image: assets/img/team/2.jpg
-  #      social:
-  #        - url: https://twitter.com
-  #          icon: fab fa-twitter
-  #        - url: https://facebook.com
-  #          icon: fab fa-facebook-f
-  #        - url: https://linkedin.com
-  #          icon: fab fa-linkedin-in
-  #    - name: "Diana Perterson"
-  #      role: "Lead Developer"
-  #      image: assets/img/team/500x500.jpg
-  #      social:
-  #        - url: https://twitter.com
-  #          icon: fab fa-twitter
-  #        - url: https://facebook.com
-  #          icon: fab fa-facebook-f
-  #        - url: https://linkedin.com
-  #          icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
