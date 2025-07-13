@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our DreavTV!
+    title: Welcome to DreamTV!
     text: Start Watching World TV
     button: Contact Sales
     buttonlink: "#services"
