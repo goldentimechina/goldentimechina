@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+agency# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that.
@@ -21,9 +21,9 @@ title      : DreamTV
 email      : goldentimechina@hotmail.com #this is also the email contact forms will go to
 description: "DreamTV Born in 2014, Lasting Till Eternity!"
 author     : DreamTV
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+  path: logo2.png
+  height: 52 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
