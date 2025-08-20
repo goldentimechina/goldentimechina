@@ -67,3 +67,28 @@
   </div>
 </section>
 <!-- End Contact -->
+<script>
+  function handleFormSubmit(event) {
+    event.preventDefault();
+    const form = document.getElementById('contactForm');
+    const formData = new FormData(form);
+    const successDiv = document.getElementById('success');
+
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.success) {
+        successDiv.innerHTML = '<p class="text-success">Your message has been sent successfully!</p>';
+        form.reset();
+      } else {
+        successDiv.innerHTML = '<p class="text-danger">There was an error sending your message. Please try again.</p>';
+      }
+    })
+    .catch(error => {
+      successDiv.innerHTML = '<p class="text-danger">An error occurred: ' + error.message + '</p>';
+    });
+  }
+</script>
