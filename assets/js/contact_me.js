@@ -19,53 +19,45 @@ $(function() {
       var $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button to prevent duplicate submissions
 
-      // Create FormData object to handle all form inputs, including hidden fields like access_key
-      var formData = new FormData();
-      formData.append("access_key", "YOUR_ACCESS_KEY_HERE"); // Replace with your Web3Forms access key
-      formData.append("name", name);
-      formData.append("email", email);
-      formData.append("phone", phone);
-      formData.append("message", message);
-      formData.append("subject", $("input[name='subject']").val());
-      formData.append("botcheck", $("input[name='botcheck']").val());
-      formData.append("redirect", $("input[name='redirect']").val());
+      // Create object with form data, including Web3Forms-specific fields
+      var formData = {
+        access_key: $("input[name='access_key']").val(), // Replace with your Web3Forms access key in HTML
+        name: name,
+        email: email,
+        phone: phone,
+        message: message,
+        subject: `${name} sent a message from website`, // Dynamic subject as per Web3Forms sample
+        botcheck: $("input[name='botcheck']").val(),
+        redirect: $("input[name='redirect']").val()
+      };
 
       $.ajax({
         url: "https://api.web3forms.com/submit",
         type: "POST",
-        data: formData,
-        processData: false, // Prevent jQuery from processing FormData
-        contentType: false, // Let FormData set the content type
+        data: JSON.stringify(formData),
+        contentType: "application/json",
         cache: false,
         success: function(data) {
-          if (data.success) {
-            // Success message
-            $('#success').html("<div class='alert alert-success'>");
-            $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-              .append("</button>");
-            $('#success > .alert-success')
-              .append("<strong>Your message has been sent.</strong>");
-            $('#success > .alert-success')
-              .append('</div>');
-            // Clear all fields
-            $('#contactForm').trigger("reset");
-          } else {
-            // Fail message
-            $('#success').html("<div class='alert alert-danger'>");
-            $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-              .append("</button>");
-            $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", there was an error sending your message. Please try again later!</strong>");
-            $('#success > .alert-danger').append('</div>');
-            // Clear all fields
-            $('#contactForm').trigger("reset");
-          }
+          // Success message
+          $('#success').html("<div class='alert alert-success'>");
+          $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            .append("</button>");
+          $('#success > .alert-success')
+            .append("<strong>" + (data.message || "Your message has been sent.") + "</strong>");
+          $('#success > .alert-success')
+            .append('</div>');
+          // Clear all fields
+          $('#contactForm').trigger("reset");
         },
-        error: function() {
+        error: function(jqXHR, textStatus, errorThrown) {
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that the server is not responding. Please try again later!</strong>");
+          var errorMessage = jqXHR.responseJSON && jqXHR.responseJSON.message 
+            ? jqXHR.responseJSON.message 
+            : "Sorry " + firstName + ", there was an error sending your message. Please try again later!";
+          $('#success > .alert-danger').append("<strong>" + errorMessage + "</strong>");
           $('#success > .alert-danger').append('</div>');
           // Clear all fields
           $('#contactForm').trigger("reset");
